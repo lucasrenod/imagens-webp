@@ -1,0 +1,7 @@
+.rossi{float: left; width: 500px; height: 400px; margin: 0 10px;}
+
+/* Utiliza a classe webp inserida na tag html pelo Modernizr */
+.webp .rossi{background: url('../image/rossi.webp')}
+
+/* Utiliza a classe .no-webp inserida na tag html Modernizr */
+.no-webp .rossi{background: url('../image/rossi.jpg')}
